@@ -5,7 +5,7 @@ public class fullCircle {
         double p = 3.14;
         double r = 3.0;
         Math.pow(p, r);
-        double S = (p * r);
-        System.out.println(S);
+        double s = (p * r);
+        System.out.println(s);
     }
 }
