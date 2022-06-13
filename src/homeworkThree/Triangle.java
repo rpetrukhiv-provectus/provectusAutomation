@@ -2,14 +2,14 @@ package homeworkThree;
 
 public class Triangle {
     public static void main(String[] args) {
-        int Rside = 5;
-        int Lside = 5;
-        int Bottom = 3;
+        int rside = 5;
+        int lside = 5;
+        int bottom = 3;
 
-        if (Rside==Lside && Rside!=Bottom){
+        if (rside==lside && rside!=bottom){
             System.out.println("Sides are equals");
         }
-        else if (Rside>=Lside || Lside!=Bottom){
+        else if (rside>=lside || lside!=bottom){
             System.out.println("Isosceles Triangle!!!");
         }
         else {
