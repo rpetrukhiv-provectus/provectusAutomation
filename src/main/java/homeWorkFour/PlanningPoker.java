@@ -2,7 +2,7 @@ package homeWorkFour;
 
 import java.util.Random;
 
-public class poker {
+public class PlanningPoker {
     public static void main(String[] args) {
         String[] card = new String[20];
         card[0] = "eight Hearts";

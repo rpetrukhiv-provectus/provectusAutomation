@@ -2,7 +2,7 @@ package homeWorkFour;
 
 import java.util.Random;
 
-public class randomArray {
+public class Rarray {
     public static void main(String[] args) {
         Random random = new Random();
         int i = random.nextInt(100);
