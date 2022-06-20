@@ -1,4 +1,4 @@
-package homeWorkFour;
+package homeWorkFour.poker;
 
 import java.util.Random;
 
