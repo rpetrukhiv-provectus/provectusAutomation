@@ -8,15 +8,15 @@ import static homeWorkFour.poker.Deck.getDeck;
 public class Shuffle {
 
     public static void shuffleDeck() {
-        String[] deck = getDeck();
+        //String[] deck = getDeck();
         Random random = new Random();
         for (int i = 0; i < 100; i++) {
             int in = random.nextInt(getNoOfCards());
             int out = random.nextInt(getNoOfCards());
 
-            String tmpCard = deck[in];
-            deck[in] = deck[out];
-            deck[out] = tmpCard;
+            String tmpCard = getDeck()[in];
+            getDeck()[in] = getDeck()[out];
+            getDeck()[out] = tmpCard;
         }
     }
 }
